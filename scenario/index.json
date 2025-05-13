@@ -16,7 +16,9 @@
     "intro": {
       "courseData": "background.sh",
       "code": "foreground.sh"
-    }
-    
+    },
+    "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes"
+  }
   }
 }
