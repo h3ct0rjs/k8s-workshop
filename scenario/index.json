@@ -4,21 +4,26 @@
   "difficulty": "beginner",
   "time": "40 minutos",
   "details": {
-    "steps": [
-      { "title": "Introducción", "text": "intro.md" },
-      { "title": "Conociendo los Pods", "text": "paso1.md" },
-      { "title": "Conociendo los Servicios", "text": "paso2.md" },
-      { "title": "Conociendo los Deployments", "text": "paso3.md" },
-      { "title": "Escalando una aplicación", "text": "paso4.md" },
-      { "title": "Exponiendo un servicio", "text": "paso5.md" },
-      { "title": "Fin", "text": "fin.md" }
-    ],
     "intro": {
-      "courseData": "background.sh",
-      "code": "foreground.sh"
+    "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Conociendo los Pods",
+        "text": "step1/paso1.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Desplegando una app",
+        "text": "step2/paso2.md"
+      },
+    ],
+    "finish": {
+      "title": "Fin",
+      "text": "fin.md"
     },
     "backend": {
-    "imageid": "kubernetes-kubeadm-2nodes"
-  } 
+      "imageid": "kubernetes-kubeadm-2nodes"
+  }
   }
 }
