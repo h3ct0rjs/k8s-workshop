@@ -1,0 +1,20 @@
+﻿{
+  "title": "Course TWO has a nice title",
+  "description": "This is the description of course TWO",
+  "items": [
+    { "path": "scenario0",
+      "title": "Introducion a los Pods",
+      "description": "Aprenderas todos los aspectos relacionados con los Pods en Kubernetes"
+    },
+    { "path": "scenario1",
+      "title": "Servicios en Kubernetes",
+      "description": "Aprende todos los aspectos relacionados de los servicios en Kubernetes"
+    },
+    {
+      "path": "../course1/scenario2",
+      "title": "New title for scenario TWO",
+      "description": "We reference a scenario from another directory and override title and description"
+    },
+    { "path": "category1/scenarioB" }
+  ]
+}
